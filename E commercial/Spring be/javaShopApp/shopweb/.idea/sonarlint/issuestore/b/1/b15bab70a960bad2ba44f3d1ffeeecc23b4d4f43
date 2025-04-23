@@ -1,0 +1,6 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Å‡Ž‹8Õ³‚Ä¶2
+c
+java:S1128"FRemove this unused import 'org.project1.shopweb.respon.ProductRespon'.(†¡Å¼8Ý³‚Ä¶2
+V
+java:S1128"4Remove this unused import 'java.awt.print.Pageable'.(ž¾Ðýøÿÿÿÿ8Ý³‚Ä¶2

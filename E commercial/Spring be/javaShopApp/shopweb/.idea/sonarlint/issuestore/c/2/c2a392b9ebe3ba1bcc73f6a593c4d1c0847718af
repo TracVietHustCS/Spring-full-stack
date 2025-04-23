@@ -1,0 +1,8 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°İã‡şÿÿÿÿ8ı°¶ß±2
+S
+java:S1128"1Remove this unused import 'org.hibernate.Length'.(É­óÎøÿÿÿÿ8ˆâ«¤Ñ2
+‹
+java:S1128"iRemove this unused import 'org.springframework.boot.autoconfigure.web.ConditionalOnEnabledResourceChain'.(¬ŸÑúÿÿÿÿ8ˆâ«¤Ñ2
+R
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8ˆâ«¤Ñ2

@@ -1,0 +1,24 @@
+
+{
+java:S2293z"YReplace the type specification in this constructor call with the diamond operator ("<>").(„ğ¡êıÿÿÿÿ8ßğÙ2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ô¹ÿ8¥ßğÙ2
+®
+java:S4449"Annotate the parameter with @javax.annotation.Nullable in method 'cleanPath' declaration, or make sure that null can not be passed as argument.(ï¼åÜ8ÁàğÙ2
+C
+java:S14525"&Remove usage of generic wildcard type.(ÚßÓ8ÊàğÙ2
+C
+java:S1452;"&Remove usage of generic wildcard type.(ªˆßµ8ËàğÙ2
+H
+java:S1452U"&Remove usage of generic wildcard type.(®Ï„úÿÿÿÿ8ÏàğÙ2
+C
+java:S1452v"&Remove usage of generic wildcard type.(ó³şÓ8ÕàğÙ2
+D
+java:S1452¯"&Remove usage of generic wildcard type.(›€´»8ßàğÙ2
+I
+java:S1452¶"&Remove usage of generic wildcard type.(ªíìéşÿÿÿÿ8áàğÙ2
+=
+java:S3751Ê"Make this method non "private".(“Ş‚ü8äàğÙ2
+I
+java:S1452â"&Remove usage of generic wildcard type.(ˆîÌøÿÿÿÿ8ôàğÙ2
+p
+java:S6204æ"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8õàğÙ2

@@ -1,0 +1,12 @@
+
+^
+java:S4973w"<Strings and Boxed types should be compared using "equals()".(øĞ†ôùÿÿÿÿ8‘†ß²à2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ô¹ÿ8’†ß²à2
+Ÿ
+java:S1186¡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(õäó8è†ß²à2
+C
+java:S1452C"&Remove usage of generic wildcard type.(áÙÏŠ8õ†ß²à2
+H
+java:S1452p"&Remove usage of generic wildcard type.(Ìé½µùÿÿÿÿ8€‡ß²à2
+D
+java:S1452¡"&Remove usage of generic wildcard type.(õäó8Š‡ß²à2

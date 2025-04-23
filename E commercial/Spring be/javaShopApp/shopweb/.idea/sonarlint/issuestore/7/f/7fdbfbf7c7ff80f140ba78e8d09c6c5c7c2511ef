@@ -1,0 +1,18 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ô¹ÿ8åîŠÒ2
+O
+java:S6856C"3Bind path variable "orderId" to a method parameter.(ƒŞ88êîŠÒ2
+C
+java:S1452"&Remove usage of generic wildcard type.(ä÷‹§8ñîŠÒ2
+H
+java:S1452$"&Remove usage of generic wildcard type.(£Ğáüÿÿÿÿ8õîŠÒ2
+H
+java:S1452."&Remove usage of generic wildcard type.(•†¶Ùşÿÿÿÿ8øîŠÒ2
+C
+java:S1452<"&Remove usage of generic wildcard type.(ÛÒŠ•8úîŠÒ2
+C
+java:S1452D"&Remove usage of generic wildcard type.(Æ¦ù8ıîŠÒ2
+n
+java:S1128"RRemove this unused import 'org.project1.shopweb.Repository.OrderDetailRepository'.(ÙíÍ 8ô¬œ²Ó2
+f
+java:S1128"DRemove this unused import 'org.project1.shopweb.respon.OrderRespon'.(Èàë†øÿÿÿÿ8õ¬œ²Ó2

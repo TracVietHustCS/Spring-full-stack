@@ -1,0 +1,12 @@
+
+}
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "key".( æÙÖúÿÿÿÿ8¯ãâóÙ2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Å‡‹8²ãâóÙ2
+l
+java:S2259"JA "NullPointerException" could be thrown; "getOrderFor()" can return null.(…‘îšıÿÿÿÿ8üãâóÙ2
+p
+java:S2259%"SA "NullPointerException" could be thrown; "getConnectionFactory()" can return null.(ô²€—8üãâóÙ2
+`
+java:S1172">Remove these unused method parameters "keyword", "categoryId".(‹˜ˆğøÿÿÿÿ8‚äâóÙ2
+M
+java:S1874%"0Remove this use of "flushAll"; it is deprecated.(ô²€—8‡äâóÙ2

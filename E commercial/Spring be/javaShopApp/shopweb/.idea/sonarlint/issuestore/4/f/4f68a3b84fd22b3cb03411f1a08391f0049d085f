@@ -1,0 +1,9 @@
+
+g	java:S112j"FDefine and throw a dedicated exception instead of using a generic one.(×Ýç‰ùÿÿÿÿ8Ú¦é–Ú2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Å‡Ž‹8ß¦é–Ú2
+­
+java:S4449N"ŠAnnotate the parameter with @javax.annotation.Nullable in method 'save' declaration, or make sure that null can not be passed as argument.( †ž’ÿÿÿÿÿ8Œ§é–Ú2
+e
+java:S1128"HRemove this unused import 'org.springframework.data.domain.PageRequest'.(ºêâÚ8¿§é–Ú2
+c
+java:S1128"ARemove this unused import 'org.springframework.data.domain.Sort'.(ëÿ€ëøÿÿÿÿ8À§é–Ú2

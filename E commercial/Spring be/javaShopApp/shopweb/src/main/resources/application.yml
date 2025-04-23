@@ -1,0 +1,109 @@
+server:
+  port: 8088
+spring:
+  kafka:
+    client:
+      dns:
+        lookup: use_dns_cache
+    bootstrap-servers: ${KAFKA_BROKER_SERVER:localhost}:${KAFKA_BROKER_PORT:9092}
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      #transaction-id-prefix: tx.
+      properties:
+        "[spring.json.type.mapping]": category:org.project1.shopweb.model.Category
+    consumer:
+      value-deserializer: org.apache.kafka.common.serialization.ByteArrayDeserializer
+  datasource:
+    url: jdbc:mysql://localhost:3307/shopwebdb
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+    username: root
+    password: your_password
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+      dialect: org.hibernate.dialect.MySQL8Dialect
+      format_sql: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  messages:
+    basename: i18n/messages
+    encoding: UTF-8
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  flyway:
+    locations: classpath:/db/migration,classpath:/dev/db/migration
+    #Phiên bản baseline sẽ = 1 và không thực hiện bất kỳ thay đổi nào trong DB
+    baseline-on-migrate: true
+    baseline-version: 0
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+
+            client-id: 214086329673-isdiu2u3ij5cdcrvk4i0rvg8llh40urg.apps.googleusercontent.com
+            client-secret: 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
+            redirect-uri: "${GOOGLE_REDIRECT_URI:http://localhost:8088/login/oauth2/code/google}"
+            scope:
+              - email
+              - profile
+          facebook:
+            client-id: 1007654770988152
+            client-secret: 5adb1d315754ac7e7e26b09d4c8b8b17
+            redirect-uri: "${FACEBOOK_REDIRECT_URI:http://localhost:4200/auth/facebook/callback}"
+            scope:
+              - email
+              - public_profile
+        provider:
+          google:
+            user-info-uri: https://www.googleapis.com/oauth2/v3/userinfo
+          facebook:
+            authorization-uri: https://www.facebook.com/v21.0/dialog/oauth
+            token-uri: https://graph.facebook.com/oauth/access_token
+            user-info-uri: https://graph.facebook.com/me?fields=id,name,email,picture.type(large)
+
+
+#          resource-server:
+#            opaque-token:
+#              introspection-uri: "https://googleapis.com"  # Đảm bảo URI này chính xác
+
+
+
+api:
+  prefix: /api/v1
+
+jwt:
+  expiration: 2592000 #30 days = 30 * 24 * 60 * 60
+  expiration-refresh-token: 5184000 #60 days = 60 * 24 * 60 * 60
+  secretKey: TaqlmGv1iEDMRiFp/pHuID1+T84IABfuA0xXh4GhiUI=
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      base-path: /api/v1/actuator
+      exposure:
+
+        include: health,info
+
+logging:
+  level:
+    org:
+      springframework:
+        security=DEBUG:
+
+vnpay:
+  pay-url: "https://sandbox.vnpayment.vn/paymentv2/vpcpay.html"
+  return-url: "${VNPAY_RETURN_URI:http://localhost:8088/api/v1/payments/vnpay-callback}"
+  tmn-code: "2NGSAYLM"
+  secret-key: "D25RLNJF15L32RQ28Z3MHT8HK67HXJXK" # Add your secret key here
+  api-url: "https://sandbox.vnpayment.vn/merchant_webapi/api/transaction"

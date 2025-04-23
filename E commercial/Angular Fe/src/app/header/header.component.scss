@@ -1,0 +1,84 @@
+/* Header với màu nền rõ ràng hơn */
+header::header {
+    background-color: rgb(24, 27, 54); /* Màu xanh đậm hơn */
+    color: rgb(173, 178, 203);
+    padding: 12px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Hiệu ứng viền */
+    border-bottom: 2px solid rgba(127, 68, 255, 0.5); /* Viền sáng nhẹ */
+}
+
+/* Navbar Base */
+.navbar {
+    background-color: rgb(24, 27, 54) !important; /* Giữ nền header đồng nhất */
+    padding: 12px 20px;
+}
+
+/* Navbar Brand */
+.navbar .container .navbar-brand {
+    color: rgb(173, 178, 203);
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.navbar .container .navbar-brand:hover {
+    color: rgb(127, 68, 255);
+}
+
+/* Navbar Links */
+.navbar .container .navbar-nav .nav-link {
+    color: rgb(173, 178, 203);
+    border-radius: 18px;
+    padding: 10px 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Active Navbar Item */
+.navbar .container .navbar-nav .nav-link.active {
+    background-color: rgb(127, 68, 255) !important;
+    color: white !important;
+    font-weight: bold;
+    box-shadow: 0 0 12px rgba(127, 68, 255, 0.5);
+}
+
+/* Hover Effect for Nav Links */
+.navbar .container .navbar-nav .nav-link:hover {
+    background-color: rgba(127, 68, 255, 0.2);
+    color: white;
+}
+
+/* Shopping Cart Icon */
+.navbar .container .navbar-nav .nav-link i {
+    margin-right: 5px;
+    transition: transform 0.3s;
+}
+
+.navbar .container .navbar-nav .nav-link:hover i {
+    transform: scale(1.1);
+}
+
+/* Popover Styling */
+.popover-list {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(24, 27, 54);
+}
+
+.popover-body {
+    padding: 0px;
+}
+
+.popover-item {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+    border-radius: 4px;
+}
+
+/* Popover Item Hover */
+.popover-item:hover {
+    background-color: rgba(127, 68, 255, 0.3);
+    color: rgb(255, 220, 220);
+}

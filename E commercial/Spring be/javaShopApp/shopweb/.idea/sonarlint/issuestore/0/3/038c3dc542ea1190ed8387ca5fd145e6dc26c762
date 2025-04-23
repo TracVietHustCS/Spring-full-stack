@@ -1,0 +1,8 @@
+
+g	java:S112p"FDefine and throw a dedicated exception instead of using a generic one.(±µ†ßþÿÿÿÿ8É½…²à2
+g	java:S112{"FDefine and throw a dedicated exception instead of using a generic one.(ÔÎÜíùÿÿÿÿ8Ê½…²à2
+K
+java:S1066V"/Merge this if statement with the enclosing one.(ã†¶v8Í½…²à2
+E
+java:S5411_"(Use a primitive boolean expression here.(ô©œû8Ò½…²à2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Å‡Ž‹8×½…²à2

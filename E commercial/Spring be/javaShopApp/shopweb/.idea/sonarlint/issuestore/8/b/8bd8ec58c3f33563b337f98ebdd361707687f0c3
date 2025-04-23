@@ -1,0 +1,18 @@
+
+b	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(¿»¼8Œ‰»»Ú2
+
+java:S1488)"]Immediately return this expression instead of assigning it to the temporary variable "token".(ş½È’øÿÿÿÿ8‰»»Ú2
+~
+java:S1488?"aImmediately return this expression instead of assigning it to the temporary variable "secretKey".(âÄ„·8‰»»Ú2
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜£Š98‰»»Ú2
+]	java:S125%"<This block of commented-out lines of code should be removed.(êŞ¸ğşÿÿÿÿ8²‰»»Ú2
+X	java:S1253"<This block of commented-out lines of code should be removed.(„§ñ£8¶‰»»Ú2
+X	java:S1258"<This block of commented-out lines of code should be removed.(¶Ê‹ë8·‰»»Ú2
+Z
+java:S1117?"=Rename "secretKey" which hides the field declared at line 30.(âÄ„·8¹‰»»Ú2
+I
+java:S1125X"'Remove the unnecessary boolean literal.(¾–’˜üÿÿÿÿ8À‰»»Ú2
+
+java:S1128"]Remove this unused import 'org.springframework.security.core.userdetails.UserDetailsChecker'.(ıÿºøÿÿÿÿ8Š˜íÃÚ2
+X
+java:S1144;"6Remove this unused private "generateSecretKey" method.(¯Ø”ıÿÿÿÿ8Â‰»»Ú2

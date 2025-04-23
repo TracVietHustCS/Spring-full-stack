@@ -1,0 +1,17 @@
+
+\
+java:S1854n":Remove this useless assignment to local variable "method".(çª©–ÿÿÿÿÿ8í‡§ëÚ2
+U
+java:S1854m"8Remove this useless assignment to local variable "path".(‚ñ‰ù8î‡§ëÚ2
+F
+java:S1481m")Remove this unused "path" local variable.(‚ñ‰ù8ò‡§ëÚ2
+M
+java:S1481n"+Remove this unused "method" local variable.(çª©–ÿÿÿÿÿ8ò‡§ëÚ2
+T
+java:S1128"7Remove this unused import 'jakarta.annotation.Nonnull'.(úæâù8ô‡§ëÚ2
+e
+java:S1128"CRemove this unused import 'jakarta.validation.constraints.NotNull'.(Àª•ıÿÿÿÿ8ô‡§ëÚ2
+s
+java:S1128"QRemove this unused import 'org.springframework.context.annotation.Configuration'.(¬²Úäşÿÿÿÿ8ô‡§ëÚ2
+`
+java:S1128"DRemove this unused import 'org.springframework.http.HttpMethod.GET'.(••È 8ô‡§ëÚ2

@@ -1,0 +1,16 @@
+
+n
+java:S1104 "QMake ADMIN a static final constant or non-public and provide accessors if needed.(Ì¯ªˆ8»Ô¡¢»2
+m
+java:S1104!"PMake USER a static final constant or non-public and provide accessors if needed.(Õñå8Ûº¢¢»2
+H
+java:S1444 "+Make this "public static ADMIN" field final(Ì¯ªˆ8½Ô¡¢»2
+G
+java:S1444!"*Make this "public static USER" field final(Õñå8Ûº¢¢»2
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°İã‡şÿÿÿÿ8¿Ô¡¢»2
+m
+java:S3008 "PRename this field "ADMIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì¯ªˆ8ÂÔ¡¢»2
+l
+java:S3008!"ORename this field "USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õñå8ßº¢¢»2
+g
+java:S1128"JRemove this unused import 'jakarta.validation.constraints.NegativeOrZero'.(íÎœ8ÌÔ¡¢»2

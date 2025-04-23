@@ -1,0 +1,50 @@
+.footer {
+    background: linear-gradient(rgb(14, 17, 36), rgb(36, 26, 73)); // Matches website theme
+    color: #ffffff;
+    padding: 30px 0;
+
+
+    h5 {
+        color: #FFD700; // Accent color for headings
+        margin-bottom: 15px;
+    }
+
+    p, a {
+        color: #dcdcdc;
+        font-size: 14px;
+        margin-bottom: 10px;
+
+        &:hover {
+            color: #ffffff;
+        }
+    }
+
+    .footer-links ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 8px;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .social-icons {
+        a {
+            margin-right: 10px;
+            font-size: 18px;
+            color: #FFD700;
+ 
+            &:hover {
+                color: #ffffff;
+            }
+        }
+    }
+
+    .text-end {
+        text-align: right;
+    }
+}

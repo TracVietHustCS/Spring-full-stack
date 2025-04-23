@@ -1,0 +1,19 @@
+
+s
+java:S1192<"QDefine a constant instead of duplicating this literal "%s/categories/**" 4 times.(ºò™ÿùÿÿÿÿ8’ß‘ëÚ2
+l
+java:S1192H"ODefine a constant instead of duplicating this literal "%s/products/**" 4 times.(ˆı¶Ò8’ß‘ëÚ2
+j
+java:S1192U"MDefine a constant instead of duplicating this literal "%s/orders/**" 3 times.(©Œõ8“ß‘ëÚ2
+v
+java:S1192]"TDefine a constant instead of duplicating this literal "%s/order_details/**" 4 times.(Âã¦øÿÿÿÿ8“ß‘ëÚ2
+E
+java:S1604l"(Make this anonymous inner class a lambda(ÙˆĞÅ8”ß‘ëÚ2
+_
+java:S1874 "BRemove this use of "EnableGlobalMethodSecurity"; it is deprecated.(ö­ê×8©ß‘ëÚ2
+N
+java:S1602+",Remove useless curly braces around statement(°—Êæÿÿÿÿÿ8¬ß‘ëÚ2
+¦
+java:S1128"ƒRemove this unused import 'org.springframework.security.config.annotation.authentication.configuration.EnableGlobalAuthentication'.(üâÃøÿÿÿÿ8¢¾“ëÚ2
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8£¾“ëÚ2

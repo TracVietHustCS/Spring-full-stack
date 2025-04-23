@@ -1,0 +1,68 @@
+/* Form Container - Slightly lighter for better contrast */
+.form-container {
+    background-color: rgb(25, 29, 50);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 420px;
+    margin: 50px auto;
+}
+
+/* Header Title */
+.product-header {
+    color: rgb(95, 230, 160);
+    font-weight: bold;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.form-control {
+    background-color: rgb(30, 35, 58);
+    border: 1px solid rgb(50, 55, 80);
+    color: white;
+    border-radius: 6px;
+    padding: 12px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Input Focus Effect - Subtle Glow */
+.form-control:focus {
+    border-color: rgb(95, 230, 160);
+    background-color: rgb(35, 40, 65);
+    outline: none;
+    box-shadow: 0 0 10px rgba(95, 230, 160, 0.6);
+}
+
+/* Labels */
+.form-label {
+    color: rgb(220, 220, 220);
+}
+
+/* Button Styling */
+.btn-primary {
+    background: linear-gradient(135deg, rgb(95, 230, 160), rgb(70, 200, 140));
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    color: rgb(15, 20, 40);
+}
+
+/* Button Hover Effect - More Vibrant */
+.btn-primary:hover {
+    background: linear-gradient(135deg, rgb(85, 220, 150), rgb(60, 190, 130));
+    box-shadow: 0 0 15px rgba(95, 230, 160, 0.8);
+    transform: translateY(-2px);
+}
+
+/* Error Messages - Softer Red */
+.invalid-feedback {
+    color: rgb(255, 120, 120);
+}
+
+/* Input Error Effect */
+.is-invalid {
+    border: 1px solid rgb(255, 120, 120) !important;
+}

@@ -1,0 +1,8 @@
+
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(ã¶÷â8çü²à2
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ä’ÜŸ8éü²à2
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¯»¢Ò8éü²à2
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(…”¹ù8éü²à2
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Å‡‹8êü²à2
+o
+java:S1128"MRemove this unused import 'org.project1.shopweb.exception.NotFoundException'.(ÇæÒÇşÿÿÿÿ8ôü²à2
