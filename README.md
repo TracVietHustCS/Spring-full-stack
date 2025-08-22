@@ -637,6 +637,6 @@ SOFTWARE.
 
 ---
 
-**Made with ❤️ by [TracVietHustCS](https://github.com/TracVietHustCS)**
+**Made by [TracVietHustCS](https://github.com/TracVietHustCS)-introvert ComSci student**
 
 *For support, please create an issue in the GitHub repository.*
